@@ -1,0 +1,113 @@
+body
+{
+	font-family: 	Arial;
+}
+
+.header
+{
+	padding:	10px;
+	color:		#333366;
+	background-color: #ffff33;
+	align:		center;
+	height:		108px;
+	font-family: 	Arial;
+	font-size: 	100%;
+	color:		#333366;
+	background-color: #ffff33;
+	align:		center;
+}
+
+.header h2
+{
+	font-size: 	200%;
+}
+
+.newsbar
+{
+	font-size:	80%;
+	foreground-color: #000099;
+}
+
+.content
+{
+	align:		center;
+	height: 	1100px;
+}
+
+.leftnav
+{
+	float:		left;
+	padding:	10px;
+	padding-top: 	20px;
+	font-family: 	Arial;
+ 	width: 		250px;
+	height:		1208px; 
+	font-size: 	100%;
+	border-width:	0px;
+	color:		#333366;
+	background-color: #ffff33;
+}
+
+.menucell
+{
+	width:		90%;
+	border-width:	1px thin;
+	color:		#333366;
+	background-color: #ffff33;
+}
+
+.menucell a
+{
+	color:		#333366;
+}
+
+.menucell a:visited
+{
+	color:		#333366;
+}
+
+.menuoddcell
+{
+	width:		90%;
+	border-width:	1px thin;
+	color:		#333366;
+	background-color: #ffff33;
+}
+
+.menuoddcell a
+{
+	color:		#333366;
+}
+
+.menuoddcell a:visited
+{
+	color:		#333366;
+}
+
+.bodylargetext
+{
+	align: 		center;
+	padding:	10px;
+	font-size:	150%;
+}
+
+.bodytext
+{
+	align: 		center;
+	padding:	10px;
+}
+
+.smallbold
+{
+	font-size:	80%;
+	font-weight:	bold;
+	align:		center;
+}
+
+.footer
+{
+	font-family:	Verdana;
+	font-size:	60%;
+	width:		100%;
+	foreground-color: #ff0000;
+}

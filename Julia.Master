@@ -1,0 +1,68 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Julia.master.cs" Inherits="ParkHouseSchool.Julia" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+	<META name="resource-type" content="document"> 
+	<META name="description" content="Park House School"> 
+	<META name="keywords" content="Park, House, School, Special, Needs, Thorney, Peterborough"> 
+	<!-- this one is for google to verify the site -->
+	<meta name="verify-v1" content="Qadyk4/mO5ooy9lPCn76T+tREOWYv0LaoLi0VXjKu18=" />
+	<link rel="stylesheet" type="text/css" title="screen" href="stylesheet1.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="MainBody">
+        <img src="Images/banner.jpg" style="width: 980px; height: 72px;" alt="Park House School - for children with special educational needs" />
+        <div id="menu" >
+        <div class="menuboxnoborder">
+            Last updated: 6th February 2011
+		</div>
+        <div class="menubox">
+		    <div class="menuheader">Links</div>
+		    <div class="menucell">
+		        <img src="Images/school.jpg" width="192"/><br />
+		    </div>
+		<div class="menuoddcell"><a href="Contact.aspx">Contact Us</a></div>
+		<div class="menuoddcell"><a href="TermDates.aspx">Term Dates</a></div>
+		<div class="menucell"><a target="_window" href="phsBookleta4.pdf">Download our Prospectus</a></div>
+		<div class="menuoddcell"><a href="aims.aspx">Our Aims and Approach</a></div>	
+		<div class="menucell"><a href="admission.aspx">Criteria for Admission</a></div>
+		<div class="menuoddcell"><a href="homeschoolliaison.aspx">Home-School Liaison</a></div>
+		<div class="menucell"><a href="facilities.aspx">Facilities</a></div>
+		<div class="menuoddcell"><a href="uniform.aspx">Uniform</a></div>
+		<div class="menucell"><a href="religious.aspx">Religious, Personal and Social Education</a></div>
+		<div class="menuoddcell"><a href="training.aspx">Training</a></div>
+		<div class="menucell"><a href="pastoral.aspx">Pastoral Care</a></div>
+		<div class="menuoddcell"><a href="schoolday.aspx">The School Day</a></div>
+		<div class="menucell"><a href="staff.aspx">Meet the Staff</a></div>
+		<div class="menuoddcell">The <a href="sleepingdragons">Sleeping Dragons</a> programme</div>
+		</div>
+		<div class="menubox">
+		    <div class="menuheader">References</div>
+		    <div class="menuoddcell"><a target="_window" href="http://www.ofsted.gov.uk/reports/pdf/?inspectionNumber=110265&providerCategoryID=32768&fileName=\\school\\134\\s163_134893_20061017.pdf">Latest OFSTED report</a><br>(opens new window)</div>
+		    <!-- http://www.ofsted.gov.uk/portal/site/Internet/menuitem.7c7b38b14d870c7bb1890a01637046a0/?urn=134893&providerCategoryID=32768 -->
+		</div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        </div>
+        <div id="content">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <hr />
+    <div class="footer">
+    <div style="float: left;">
+        <a href="http://validator.w3.org/check?uri=referer"><img
+        src="Images/valid-xhtml10-blue.png"
+        alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
+    </div>
+    <i><%=pageCount %> visitors since 21/10/2008<br/>
+    Web design and hosting by <a href="mailto:julia@juliahayward.com">Julia Hayward</a>
+    </i>
+    </div>
+    </form>
+</body>
+</html>
